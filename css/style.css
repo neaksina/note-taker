@@ -47,7 +47,9 @@ body {
 /* Header Styling */
 .header {
     background: url('https://pfst.cf2.poecdn.net/base/image/7b9f527aace3d7cb67eaffa6189cd36c16a490df7cf2f94d6f880e0565ab48db?w=1024&h=768&pmaid=261975855');
-    background-position: center;
+    background-size: cover;
+
+    background-position: center 25%;
     height: 80vh;
     color: white;
     display: flex;
@@ -188,7 +190,6 @@ body {
     display:inline;
 }   
  
-
 
 
 

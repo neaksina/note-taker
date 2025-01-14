@@ -120,14 +120,14 @@ body {
 
 .right-section {
   flex: 1;
-  background: url('https://files.oaiusercontent.com/file-DLqFPv9yCbB3AqwPBGWXif?se=2025-01-13T07%3A00%3A36Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D349374eb-f0a3-4780-acbc-2e80b7dcde2f.webp&sig=K9UWZ7Zms7UrXO0SBwFT5I57kM75MrS3M9WQF2WC0LA%3D') no-repeat center center;
+  background: url('../images/formIMAGE.jpg') no-repeat center center;
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: black;
+  color: white;
   padding: 20px;
 }
 
@@ -138,7 +138,8 @@ body {
 
 .right-section p {
   font-size: 1rem;
-  color:black;
+  color:rgb(255, 255, 255);
+ 
 }
 
 .creating-btn {
@@ -155,4 +156,12 @@ body {
 .creating-btn:hover {
   background-color: #ddd;
 }
- 
+#takenote{
+  padding: 10px 25px;
+  outline: none;  
+  border-radius:17px;
+  border: none;
+  margin-top: 5%;
+  background:#007bff;
+  color: #fff;
+}
